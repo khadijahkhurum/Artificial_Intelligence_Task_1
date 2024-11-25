@@ -8,7 +8,7 @@ import numpy as np  # For numerical computations\
 import os
 
 # Load the dataset
-data_path = r"C:\Users\khadi\OneDrive\Desktop\AI Assignment Dataset\customer_support_tickets.csv"
+data_path = r"CSV Files\customer_support_tickets.csv"
 if os.path.exists(data_path):
     print("File found!")
 else:

@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt  # For plotting visualizations
 import seaborn as sns  # For creating visually appealing charts
 
 # Load the dataset
-data_path = r"C:\Users\khadi\OneDrive\Desktop\AI Assignment Dataset\customer_support_tickets.csv"  # Path to the dataset
+data_path = r"CSV Files\customer_support_tickets.csv"  # Path to the dataset
 df = pd.read_csv(data_path)  # Read the CSV file into a DataFrame
 
 # Display dataset info
